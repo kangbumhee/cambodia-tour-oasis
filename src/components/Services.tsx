@@ -1,5 +1,5 @@
 
-import { Hotel, Golf, Users, User, Car, Ticket } from "lucide-react";
+import { Flag, Users, User, Car, Ticket, Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -8,7 +8,7 @@ const Services = () => {
     {
       title: "골프 투어",
       description: "최고의 골프장에서 특별한 경험을 제공합니다.",
-      icon: <Golf className="service-icon" />,
+      icon: <Flag className="service-icon" />,
     },
     {
       title: "프라이빗 투어",
@@ -23,7 +23,7 @@ const Services = () => {
     {
       title: "호텔 예약",
       description: "다양한 호텔과 리조트를 합리적인 가격으로 예약하세요.",
-      icon: <Hotel className="service-icon" />,
+      icon: <Building className="service-icon" />,
     },
     {
       title: "공항 픽업/드랍",
